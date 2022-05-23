@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(205, 240, 239);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(138, 205, 207);
+    width: 35rem;
+    height: 65rem;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px black;
+  }
+  
+  .title {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+    font: 2.6rem 'Barlow';
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px rgb(253, 237, 10);
+    line-height: 1.5;
+    padding-bottom: 4rem;
+  }
+  
+  .input {
+    display: flex;
+    width: 25rem;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .input input {
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5px;
+    border:none;
+    outline: 0;
+    font: 1.8rem 'Barlow';
+    text-align: center;
+  }
+  
+  .input label {
+    font: 1.8rem 'Barlow';
+    color: rgb(0, 0, 0);
+  }
+  
+  button {
+    width: 25rem;
+    height: 5rem;
+    margin-top: 20px;
+    font: 1.9rem 'Barlow';
+    color: rgb(0, 0, 0);
+    background: rgb(252, 244, 144);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s all;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  }
+
+  .result {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    text-align: center;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 5px;
+    font: 1.9rem 'Barlow';
+    box-shadow: 0px 0px 10px black;
+    background: rgb(204, 231, 231);
+    color: rgb(0, 0, 0);
+    padding: 3rem;
+    box-sizing: border-box;
+    user-select: none;
+  }
+
+  .copyright {
+    font: 1.2rem 'Barlow';
+    color: rgb(102, 161, 163);
+  }
