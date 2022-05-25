@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
     font-size: 62.5%;
 }
 
@@ -12,6 +15,7 @@ main {
     align-items: center;
     color: rgb(255, 255, 255);
     background-color: rgb(205, 240, 239);
+    font-size: 1.6rem;
   }
   
   .container {
@@ -23,7 +27,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
-    box-shadow: 0 5px 15px black;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
   }
   
   .title {
@@ -31,10 +35,10 @@ main {
     text-align: center;
     width: 100%;
     height: 5rem;
-    font: 2.6rem 'Barlow';
+    font: 2.4rem 'Barlow';
     color: rgb(0, 0, 0);
     border-bottom: solid 2px rgb(253, 237, 10);
-    line-height: 1.5;
+    line-height: 1.6;
     padding-bottom: 4rem;
   }
   
@@ -65,7 +69,7 @@ main {
     width: 25rem;
     height: 5rem;
     margin-top: 20px;
-    font: 1.9rem 'Barlow';
+    font: 2rem 'Barlow';
     color: rgb(0, 0, 0);
     background: rgb(252, 244, 144);
     outline: none;
@@ -87,8 +91,8 @@ main {
     width: 25rem;
     height: 15rem;
     border-radius: 5px;
-    font: 1.9rem 'Barlow';
-    box-shadow: 0px 0px 10px black;
+    font: 1.8rem 'Barlow';
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
     background: rgb(204, 231, 231);
     color: rgb(0, 0, 0);
     padding: 3rem;
@@ -97,6 +101,6 @@ main {
   }
 
   .copyright {
-    font: 1.2rem 'Barlow';
+    font: 1.3rem 'Barlow';
     color: rgb(102, 161, 163);
   }
